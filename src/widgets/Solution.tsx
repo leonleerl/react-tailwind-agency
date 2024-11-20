@@ -1,5 +1,6 @@
 import React from 'react'
 import SectionHeading from './SectionHeading'
+import Image1 from "../assets/pexels-photo-8348457.jpg"
 
 function Solution() {
   return (
@@ -91,6 +92,7 @@ function Solution() {
                 }
             </ul>
         </div>
+        <img src={Image1} alt=''></img>
       </div>
     </div>
   )
