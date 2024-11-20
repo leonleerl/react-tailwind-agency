@@ -1,6 +1,7 @@
 
 import Clients from '../widgets/Clients';
 import Contact from '../widgets/Contact';
+import Footer from '../widgets/Footer';
 import Header from '../widgets/Header';
 import Hero from '../widgets/Hero';
 import HowItWorks from '../widgets/HowItWorks';
@@ -25,6 +26,7 @@ function Index() {
           <Contact/>
         </section>
       </main>
+      <Footer/>
     </div>
   )
 }
